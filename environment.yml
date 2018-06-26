@@ -1,4 +1,4 @@
-name: carnd-term1
+name: ai-env
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
@@ -18,9 +18,9 @@ dependencies:
     - seaborn
     - pandas
     - ffmpeg
-    - imageio=2.1.2
+    - imageio
     - pyqt=4.11.4
     - pip:
         - moviepy
-        - tensorflow==0.12.1
-        - keras==1.2.1
+        - tensorflow
+        - keras
